@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zadatak 1</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Tomislav Karnas">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="zadatak.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+	<div>
+		<h1>RΛZΞR</h1>
+		<img class="image" src="razerblade.jpg">
+		<img class="image" src="razer2.jpg">
+		<p class="odlomak">The Razer Blade series is a series of gaming laptops developed by Razer and include the 12.5-inch Razer Blade Stealth, the 14-inch Razer Blade (now discontinued), the 15.6-inch Blade and the 17.3-inch Razer Blade Pro.</p>
+		<p class="odlomak">The base Razer Blade Stealth model has a 2,560x1,440 pixel resolution touchscreen display, a Core i7 processor, 8GB of memory and 128GB of M.2 solid-state storage, this is upgradable to 3840 by 2160 with 512GB of M.2 solid-state storage.</p>
+	</div>
+	<form action="adduser.php" method="post">
+		<label for="firstname">Ime: </label>
+		<input type="text" id="firstname" name="firstname"><br>
+		<label for="lastname">Prezime: </label>
+		<input type="text" id="lastname" name="lastname"><br>
+		<label for="email">E-mail: </label>
+		<input type="text" id="email" name="email"><br>
+		<input type="radio" name="gender" value="Male"> Muško<br>
+		<input type="radio" name= "gender" value="Female"> Žensko<br>
+		<input type="submit" value="Pošalji">
+		<input type="reset" value="Poništi">
+	</form>
+</body>
+</html>

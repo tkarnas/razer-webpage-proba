@@ -1,0 +1,44 @@
+html{
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	color:#52554c;
+}
+
+body {
+	background: url(razer.png) no-repeat center center fixed; 
+ 	background-size: cover;
+	max-width:100%;
+}
+
+div {
+	width: 50%;
+	margin: 2em auto 0 auto;
+	background-color: #f3f3f3;
+	padding: 3px 25px;
+	text-align: center;
+}
+
+.odlomak {
+	padding-bottom:2em;
+	line-height: 1.4em;
+}
+
+.image {
+	width: 47%;
+	border: 1px solid black;
+	margin: 1%;
+}
+
+@media (max-width:800px){
+		    body {
+		    	background: url(razerbg.png) no-repeat center center fixed;
+		    	background-size: cover;
+		    	font-size: 12px;
+		    }
+		    div {
+		    	width:80%;
+		    }
+		    .image {
+		    	width:70%;
+		    }
+} 
